@@ -116,6 +116,8 @@ hr.style1 {
     background-color: #1b7cde;
     margin-top: 0px;
     margin-bottom: -60px;
+    z-index: 10;
+    position: relative;
 }
 
 p {
@@ -196,6 +198,8 @@ img {
 	background-position: center center;
 	min-height: 600px;
 	width: 100%;
+  z-index: 10;
+  position: relative;
 
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -233,14 +237,9 @@ img {
 	color: #ffffff
 }
 
-
 #headerwrap h5 {
 	font-weight: 500;
 	color: #ebebeb
-}
-
-#form-style {
-  padding-top: 100px;
 }
 
 #social {
@@ -332,6 +331,17 @@ img {
     background-size: cover;
 }
 
+#tools-container {
+  padding-bottom: 50px;
+}
+
+#form {
+  padding-top: -150px;
+  padding-bottom: -150px;
+  text-align: center;
+  z-index: 1;
+  position:relative;
+}
 /* Gallery */
 .gallery {
 	margin-top: 30px;
