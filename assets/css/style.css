@@ -77,10 +77,11 @@ body {
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
-
+h3 {
+  color: #ffffff;
+}
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
-    color: #1b7cde;
 }
 
 hr.style1 {
@@ -107,7 +108,7 @@ img {
 }
 
 .navbar-brand {
-	font-weight: 700;
+  margin-top: -20px;
 }
 
 .navbar-default .navbar-brand {
@@ -115,13 +116,8 @@ img {
 }
 
 .navbar-default {
-	background-color: transparent;
-	border-color: transparent;
-}
-
-.navbar-default.scroll, .navbar-fixed-to.scroll, .navbar-brand.scroll, .navbar-nav.scroll {
-  background-color: #000 !important;
-  transition: background-color 200ms linear;
+	background-color: hsla(0, 0%, 0%, 0.8);
+	border-color: hsla(0, 0%, 0%, 0.8);
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -247,7 +243,7 @@ img {
 	padding-top: 70px;
 	padding-bottom: 50px;
   background-size: 100% 100%;
-	background: url(../img/joburg_small.png) no-repeat center;
+	background: url(../img/joburg_small.png) no-repeat center center;
 }
 
 #footerwrap p {
