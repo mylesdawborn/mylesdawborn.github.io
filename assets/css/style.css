@@ -36,7 +36,7 @@
 /* Handle */
 ::-webkit-scrollbar-thumb {
     background: #1b7cde;
-    border-radius: 10px;
+    border-radius: 1px;
 }
 
 /* Handle on hover */
@@ -325,6 +325,10 @@ img {
 
 #tools-container {
   padding-bottom: 50px;
+}
+
+#blog-title h3{
+  color: #000000
 }
 
 #form {
