@@ -346,7 +346,7 @@ img {
 	opacity: 0.4;
 }
 
-.button {
+a.button {
     background-color: #1b7cde; /* Blue */
     border: none;
     color: white;
